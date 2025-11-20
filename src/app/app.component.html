@@ -4,9 +4,34 @@
   </div>
 </nav>
 
+<div class="container mb-5">
+    <div class="row">
+        <div class="col-4 offset-4">
+            <div class="card">
+                <form class="card-body">
+                    <div class="form-group">
+                        <label for="search" class="form-label">Rechercher un Pokémon</label>
+
+                        <input
+                                id="search"
+                                type="text"
+                                name="searchTerm"
+                                class="form-control"
+                                placeholder="Rechercher un pokémon"
+                                #searchField
+                                [value]="searchTerm()"
+                                (input)="searchTerm.set(searchField.value)"
+                        />
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 <main class="container pb-5">
   <div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
-    @for(pokemon of pokemonList(); track pokemon.id){
+    @for(pokemon of pokemonListFilter(); track pokemon.id){
       <div class="col">
         <article class="card h-100 shadow-sm border border-2" appPokemonBorder>
           <div class="card-body d-flex flex-column align-items-center text-center" appPokemonBorder>

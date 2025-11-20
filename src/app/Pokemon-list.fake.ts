@@ -7,7 +7,7 @@ export const POKEMON_LIST: PokemonList = [
     picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png',
     life: 25,
     damage: 5,
-    types: ['plante','posson'],
+    types: ['plante','poison'],
     created: new Date('2022-01-01'),
   },
   {
@@ -16,7 +16,7 @@ export const POKEMON_LIST: PokemonList = [
     picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png',
     life: 28,
     damage: 6,
-    types: ['plante','posson'],
+    types: ['plante','poison'],
     created: new Date('2022-01-01'),
   },
   {
@@ -25,7 +25,7 @@ export const POKEMON_LIST: PokemonList = [
     picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png',
     life: 28,
     damage: 6,
-    types: ['plante','posson'],
+    types: ['plante','poison'],
     created: new Date('2022-01-01'),
   },
   {
@@ -34,7 +34,7 @@ export const POKEMON_LIST: PokemonList = [
     picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png',
     life: 16,
     damage: 2,
-    types: ['Insecte','posson'],
+    types: ['Insecte','poison'],
     created: new Date('2025-11-18'),
   }, {
     id: 5,
@@ -70,7 +70,7 @@ export const POKEMON_LIST: PokemonList = [
     picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/023.png',
     life: 16,
     damage: 4,
-    types: ['Poisson'],
+    types: ['poison'],
     created: new Date('2025-11-18'),
   },
   {
